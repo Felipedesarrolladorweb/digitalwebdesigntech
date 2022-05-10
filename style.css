@@ -234,110 +234,205 @@ nav {
   font-size: 1.2rem;
 }
 .beneficios {
-    min-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-image: url('/src/mainimg1.png');
-    background-size: 200%;
-    background-position: 50% 90%;
-    background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("/src/mainimg1.png");
+  background-size: 200%;
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
 }
 .beneficiosimg {
-    display: none;
+  display: none;
 }
 .beneficiostitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70vw;
 }
 .beneficiostitle h1 {
-    font-size: 2.9rem;
-    color: #121212;
-    font-weight: 900;
-    margin-top: 7rem;
+  font-size: 2.9rem;
+  color: #121212;
+  font-weight: 900;
+  margin-top: 7rem;
 }
 .beneficiostitle p {
-    font-size: 1.7rem;
-    margin-top: 2rem;
+  font-size: 1.7rem;
+  margin-top: 2rem;
 }
 .check {
-    display: flex;
-    width: 70vw;
-    min-height: 54rem;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  width: 70vw;
+  min-height: 54rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .check1 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 9rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 9rem;
 }
 .img1 {
-    width: 4.9rem;
+  width: 4.9rem;
 }
 .checktext {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 .checktext h1 {
-    margin-top: 0rem;
+  margin-top: 0rem;
 }
 .checktext p {
-    margin-top: 0rem;
+  margin-top: 0rem;
 }
 .check1 h1 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 .check1 img {
-    width: 3rem;
+  width: 3rem;
+}
+.portafolio-section {
+  min-width: 10vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.portafolios {
+  min-width: 70vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 3rem;
+}
+.portafolio-section h1 {
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+.portafolio-section h1 {
+  color: #000000;
+}
+.portafolio-section h1 span {
+  color: #55BEFF;
+}
+.portafolio1 {
+  width: 31rem;
+  height: 47rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 0.4rem;
+  border-bottom: #00D1FF solid 4px;
+  box-shadow: 0px 4px 14px 0px rgb(0, 0, 0, 0.7);
+}
+.portafolio1 h1 {
+  font-size: 2rem;
+  color: #1D2124;
+  margin-bottom: 1rem;
+  transform: translate(0%, -100%);
+}
+.portafolio1 p {
+  font-size: 1.5rem;
+  width: 27rem;
+  margin-bottom: 1rem;
+  transform: translate(0%, -75%);
+}
+.portafolio1 img {
+  width: 100%;
+}
+.portafolio1 button {
+  border-style: none;
+  background-image: linear-gradient(#4EADE1, #00D1FF);
+  border-radius: 0.4rem;
+  width: 16rem;
+  height: 2.9rem;
+  transform: translate(0%, -100%);
+}
+.portafolio1 button a {
+  color: #ffffff;
+  font-weight: bold;
+}
+.portafolio1 button a:hover {
+  text-decoration: underline;
+}
+.acercade-section {
+  min-width: 100vw;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.acercade-section h1 {
+  width: 70vw;
+  font-size: 4rem;
+  margin-top: 4rem;
+  color: #000000;
+}
+.acercade-section h1 span {
+  color: #3DBAFE;
+}
+.acercade-section p {
+  width: 70vw;
+  font-size: 1.7rem;
+  margin-top: 7rem;
 }
 
 @media screen and (min-width: 450px) {
-    .beneficios {
-        background-size: 160%;
-    }
+  .beneficios {
+    background-size: 160%;
+  }
 }
 @media screen and (min-width: 540px) {
-    .main-title h1 {
-        font-size: 3.4rem;
-    }
-    .main-title p {
-        font-size: 2rem;
-    }
-    .main-title button a {
-        font-size: 1.4rem;
-    }
-    .mainimg img {
-        width: 140vw;
-    }
-    .acercadetitle h1 {
-        font-size: 4rem;
-    }
-    .acercadetitle p {
-        font-size: 2rem;
+  .main-title h1 {
+    font-size: 3.4rem;
+  }
+  .main-title p {
+    font-size: 2rem;
+  }
+  .main-title button a {
+    font-size: 1.4rem;
+  }
+  .mainimg img {
+    width: 140vw;
+  }
+  .acercadetitle h1 {
+    font-size: 4rem;
+  }
+  .acercadetitle p {
+    font-size: 2rem;
   }
   .icon1 p.p1 {
-      font-size: 2rem;
-    }
-    .icon1 p.p2 {
-        font-size: 1.7rem;
-    }
-    .checktext {
-        width: 24vw;
-    }
-    .beneficios {
-        background-size: 120%;
-    }
+    font-size: 2rem;
+  }
+  .icon1 p.p2 {
+    font-size: 1.7rem;
+  }
+  .checktext {
+    width: 24vw;
+  }
+  .beneficios {
+    background-size: 120%;
+  }
 }
 @media screen and (min-width: 740px) {
-    .burger {
-        display: none;
-    }
-    .nav-links {
+  .burger {
+    display: none;
+  }
+  .nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -397,7 +492,7 @@ nav {
   }
   .beneficios {
     background-size: 100%;
-}
+  }
 }
 @media screen and (min-width: 940px) {
   .main-section {
@@ -411,25 +506,29 @@ nav {
     width: 20vw;
   }
   .beneficiosimg {
-      display: flex;
-      align-self: flex-start;
-      margin-top: 10rem;
-      width: 50vw;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 10rem;
+    width: 50vw;
   }
   .beneficios {
-      flex-direction: row;
-      background-size: 90rem;
-      background-position: 100% 100%;
+    flex-direction: row;
+    background-size: 90rem;
+    background-position: 100% 100%;
   }
   .beneficiostitle {
-      padding-right: 4rem;
-      width: 50vw;
-}
-.check {
-      width: fit-content;
+    padding-right: 4rem;
+    width: 50vw;
+  }
+  .check {
+    width: fit-content;
   }
   .checktext {
     width: 14vw;
+  }
+  .acercade-section p {
+    width: 60vw;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 1250px) {
