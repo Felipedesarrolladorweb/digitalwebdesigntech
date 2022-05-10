@@ -390,6 +390,15 @@ nav {
   font-size: 1.7rem;
   margin-top: 7rem;
 }
+.acercade-section p.acercadep1 {
+  font-size: 2rem;
+  color: #121212;
+  font-weight: 900;
+}
+.acercade-section p.acercadep2 {
+  font-size: 2rem;
+  transform: translate(0%, -290%);
+}
 
 @media screen and (min-width: 450px) {
   .beneficios {
