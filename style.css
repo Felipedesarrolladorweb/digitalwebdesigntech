@@ -399,6 +399,61 @@ nav {
   font-size: 2rem;
   transform: translate(0%, -290%);
 }
+.suscripcionemail-section {
+  min-width: 100vw;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.suscripcionemail {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.suscripcionemail img.windows {
+  display: none;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 24rem;
+  align-items: center;
+  height: 27rem;
+}
+.email h1 {
+  font-size: 2.3rem;
+  color: #121212;
+  font-weight: 900;
+}
+.email p {
+  font-size: 1.6rem;
+  color: #7B8998;
+}
+.email input {
+  background-color: transparent;
+  color: #7B8998;
+  border: #7B8998 solid 1px;
+  width: 24rem;
+  height: 3rem;
+  padding: 1rem;
+}
+.email button {
+  border-style: none;
+  width: 24rem;
+  height: 3rem;
+  background-image: linear-gradient(#35BFFD, #05DAF7);
+}
+.email button a {
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
 
 @media screen and (min-width: 450px) {
   .beneficios {
@@ -435,6 +490,9 @@ nav {
   }
   .beneficios {
     background-size: 120%;
+  }
+  .suscripcionemail img.laptopdeveloper {
+    width: 49rem;
   }
 }
 @media screen and (min-width: 740px) {
@@ -501,6 +559,19 @@ nav {
   }
   .beneficios {
     background-size: 100%;
+  }
+  .suscripcionemail {
+    flex-direction: row;
+    align-content: flex-end;
+    min-height: 50vh;
+  }
+  .suscripcionemail img.windows {
+    display: flex;
+    width: 24vw;
+    align-self: flex-start;
+  }
+  .suscripcionemail img.laptopdeveloper {
+    width: 24vw;
   }
 }
 @media screen and (min-width: 940px) {
