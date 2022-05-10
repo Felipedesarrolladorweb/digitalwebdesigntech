@@ -242,10 +242,13 @@
               sobre proyectos, servicios e información para desarrolladores como
               blogs
             </p>
-            <input type="text" placeholder="Dirección de Correo" />
-            <button>
-              <a href="">Suscribirse</a>
-            </button>
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="text" name="name" placeholder="Nombre" /></label>
+              <input type="email" name="text" placeholder="Dirección de Correo" />
+              <button>
+                <a href="" type="submit">Suscribirse</a>
+              </button>
+            </form>
           </div>
           <img src="/src/laptopdeveloper.png" alt="" class="laptopdeveloper"/>
         </div>
