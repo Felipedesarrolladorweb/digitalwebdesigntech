@@ -11,6 +11,7 @@ html {
   list-style: none;
   scroll-behavior: smooth;
   font-family: "Roboto";
+  color: #7a7574;
 }
 
 a {
@@ -22,7 +23,7 @@ header {
   position: fixed;
   min-width: 100vw;
   z-index: 1;
-  background-color: rgb(255, 255, 255, 0.7);
+  background-color: rgb(255, 255, 255, 0.6);
 }
 nav {
   display: flex;
@@ -136,6 +137,7 @@ nav {
   background-size: 190%;
   background-position: 20% 40%;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .main-title {
   width: 70vw;
@@ -175,65 +177,87 @@ nav {
   align-self: flex-start;
 }
 .acercade-section {
-    min-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .acercadetitle {
-    width: 70vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    min-height: 50vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 50vh;
 }
 .acercadetitle h1 {
-    font-size: 3.4rem;
+  font-size: 3.4rem;
+  color: #121212;
 }
 .acercadetitle h1 span {
-    color: #3E99D8;
+  color: #3e99d8;
 }
 .acercadetitle p {
-    font-size: 1.5rem;
-    color: #7A7574;
+  font-size: 1.5rem;
+  color: #7a7574;
 }
 .acercadetitle p a {
-    color: #54B9FF;
+  color: #54b9ff;
 }
 .acercadetitle p a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .acercadeicons {
-    width: 70vw;
-    min-height: 79vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+  width: 70vw;
+  min-height: 79vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 .icon1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 20rem;
 }
 .icon1 p.p1 {
-    font-size: 1.7rem;
-    color: #000000;
-    font-weight: bold;
+  font-size: 1.7rem;
+  color: #000000;
+  font-weight: bold;
 }
 .icon1 p.p2 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (min-width: 540px) {
+  .main-title h1 {
+    font-size: 3.4rem;
+  }
+  .main-title p {
+    font-size: 2rem;
+  }
+  .main-title button a {
+    font-size: 1.4rem;
+  }
   .mainimg img {
     width: 140vw;
+  }
+  .acercadetitle h1 {
+    font-size: 4rem;
+  }
+  .acercadetitle p {
+    font-size: 2rem;
+  }
+  .icon1 p.p1 {
+    font-size: 2rem;
+  }
+  .icon1 p.p2 {
+    font-size: 1.7rem;
   }
 }
 @media screen and (min-width: 740px) {
@@ -276,18 +300,18 @@ nav {
     justify-content: flex-start;
   }
   .main-title h1 {
-      font-size: 4.7rem;
-      line-height: normal;
+    font-size: 4.7rem;
+    line-height: normal;
   }
   .main-title p {
-      font-size: 2rem;
+    font-size: 2rem;
   }
   .main-title button {
-      width: 16rem;
-      height: 2.7rem;
+    width: 16rem;
+    height: 2.7rem;
   }
   .main-title button a {
-      font-size: 1.7rem;
+    font-size: 1.7rem;
   }
   .mainimg {
     width: 50vw;
@@ -300,17 +324,24 @@ nav {
   }
 }
 @media screen and (min-width: 940px) {
-    .main-section {
-        background-size: 74%;
-    }
+  .main-section {
+    background-size: 74%;
+  }
+  .acercadeicons {
+    flex-direction: row;
+    min-height: 29vh;
+  }
+  .icon1 p {
+    width: 20vw;
+  }
 }
 @media screen and (min-width: 1250px) {
-    .main-section {
-        background-size: 90rem;
-        background-position: 40% 140%;
-    }
-    .mainimg img {
-        width: 60vw;
-        transform: translate(-10%, 0%);
-    }
+  .main-section {
+    background-size: 90rem;
+    background-position: 40% 140%;
+  }
+  .mainimg img {
+    width: 60vw;
+    transform: translate(-10%, 0%);
+  }
 }
