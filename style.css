@@ -564,6 +564,93 @@ nav {
   color: #ffffff;
   font-weight: bold;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient(#0071C0, #49C8FF);
+}
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 40vh;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.logotitle {
+  display: flex;
+  flex-direction: column;
+}
+.logotitle p.logo1 {
+  font-weight: 400;
+  color: #ffffff;
+}
+.logotitle p.logo2 {
+  color: #ffffff;
+  font-weight: 900;
+}
+.logo img {
+  width: 7rem;
+  height: 7rem;
+}
+.logo p {
+  font-size: 2rem;
+}
+.contacto1 p {
+  font-size: 1.4rem;
+  font-weight: 400;  
+}
+.contacto1 a {
+  color: #ffffff;
+}
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 27rem;
+  color: #ffffff;
+  padding: 2rem;
+}
+.footermenu1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footermenu1 p {
+  font-size: 1.4rem;
+}
+.footermenu2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footermenu2 p {
+  font-size: 1.4rem;
+}
+footer p.correo {
+  font-size: 1.4rem;
+  text-align: center;
+  align-self: center;
+  justify-self: flex-start;
+  color: #ffffff;
+  transform: translate(0%, -70%);
+}
+footer div.line {
+  width: 29rem;
+  height: 0.1rem;
+  background-color: rgb(255, 255, 255, 0.7);
+  margin-bottom: 2rem;
+}
 
 @media screen and (min-width: 279px) {
   .profesional,
@@ -573,10 +660,28 @@ nav {
   .basico {
     width: 25rem;
   }
+  footer p.correo {
+    width: 24rem;
+  }
+  .acercadetitle p {
+    font-size: 1.7rem;
+  }
+  .icon1 p.p2 {
+    font-size: 1.4rem;
+  }
+  .checkp p {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (min-width: 450px) {
   .beneficios {
     background-size: 160%;
+  }
+  footer p.correo {
+    width: 49rem;
+  }
+  .icon1 p.p2 {
+    font-size: 1.7rem;
   }
 }
 @media screen and (min-width: 540px) {
@@ -600,9 +705,6 @@ nav {
   }
   .icon1 p.p1 {
     font-size: 2rem;
-  }
-  .icon1 p.p2 {
-    font-size: 1.7rem;
   }
   .checktext {
     width: 24vw;
@@ -692,6 +794,26 @@ nav {
   .suscripcionemail img.laptopdeveloper {
     width: 24vw;
   }
+  .checkp p {
+    font-size: 1.4rem;
+  }
+  .footer1 .logo img {
+    width: 14rem;
+    height: 14rem;
+  }
+  .footer1 .logotitle p {
+    font-size: 2.7rem;
+  }
+  .contacto1 a {
+    font-size: 1.7rem;
+  }
+  .footer2 p {
+    font-size: 1.7rem;
+  }
+  footer p.correo {
+    font-size: 1.7rem;
+  }
+  
 }
 @media screen and (min-width: 940px) {
   .main-section {
@@ -738,5 +860,21 @@ nav {
   .mainimg img {
     width: 60vw;
     transform: translate(-10%, 0%);
+  }
+  .footer1 .logo img {
+    width: 19rem;
+    height: 19rem;
+  }
+  .footer1 .logotitle p {
+    font-size: 3rem;
+  }
+  .contacto1 a {
+    font-size: 1.7rem;
+  }
+  .footer2 p {
+    font-size: 1.7rem;
+  }
+  footer p.correo {
+    font-size: 1.7rem;
   }
 }
