@@ -211,11 +211,11 @@ nav {
 }
 .acercadeicons {
   width: 70vw;
-  min-height: 79vh;
+  min-height: 29rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
 }
 .icon1 {
@@ -223,7 +223,10 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  min-height: 20rem;
+  height: 27rem;
+}
+.icon1 p.p1 {
+  width: fit-content;
 }
 .icon1 p.p1 {
   font-size: 1.7rem;
@@ -232,6 +235,8 @@ nav {
 }
 .icon1 p.p2 {
   font-size: 1.2rem;
+  width: fit-content;
+  padding: 1rem;
 }
 .beneficios {
   min-width: 100vw;
@@ -367,7 +372,7 @@ nav {
 .portafolio1 button a:hover {
   text-decoration: underline;
 }
-.acercade-section {
+.acercadesection {
   min-width: 100vw;
   min-height: 50vh;
   display: flex;
@@ -376,32 +381,32 @@ nav {
   align-items: center;
   text-align: center;
 }
-.acercade-section h1 {
+.acercadesection h1 {
   width: 70vw;
   font-size: 4rem;
   margin-top: 4rem;
   color: #000000;
 }
-.acercade-section h1 span {
+.acercadesection h1 span {
   color: #3DBAFE;
 }
-.acercade-section p {
+.acercadesection p {
   width: 70vw;
   font-size: 1.7rem;
   margin-top: 7rem;
 }
-.acercade-section p.acercadep1 {
+.acercadesection p.acercadep1 {
   font-size: 2rem;
   color: #121212;
   font-weight: 900;
 }
-.acercade-section p.acercadep2 {
+.acercadesection p.acercadep2 {
   font-size: 2rem;
   transform: translate(0%, -290%);
 }
 .suscripcionemail-section {
   min-width: 100vw;
-  min-height: 200vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -453,8 +458,122 @@ nav {
   font-size: 1.7rem;
   font-weight: bold;
 }
+.suscripcionemail img.laptopdeveloper {
+  width: 39rem;
+}
+.planes-desarrolloweb {
+  min-width: 54vw;
+  min-height: 54rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profesional,
+.premium {
+  width: 29rem;
+  height: 43rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-items: center;
+  box-shadow: 0px 4px 14px 0px #55BEFF;
+  box-shadow: 0px 4px 24px 0px #55BEFF;
+}
+.basico {
+  width: 31rem;
+  height: 47rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 4px 14px 0px #55BEFF;
+  box-shadow: 0px 4px 24px 0px #55BEFF;
+  
+}
 
+.planprofesional,
+.planpremium {
+  background-color: #F1F8FF;
+  width: 29rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #2B3237;
+  transform: translate(0%, -17%);
+}
+.planbasico {
+  transform: translate(0%, -17%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 31rem;
+  height: 5.4rem;
+  color: #2B3237;
+  background-color: #93F790;
+} 
+.planbasico h1 {
+  font-size: 2.4rem;
+}
+.profesional p.paginas,
+.basico p.paginas,
+.premium p.paginas {
+  font-size: 1.7rem;
+  color: #7B8998;
+}
+.profesional p.precio,
+.basico p.precio,
+.premium p.precio {
+  font-size: 5rem;
+  color: #3DBAFE;
+}
+.checkp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 19rem;
+  height: 4rem;
+}
+.checkp p {
+  font-size: 1.1rem;
+}
+.checkp img {
+  width: 2rem;
+}
+.profesional button,
+.basico button,
+.premium button {
+  border-style: none;
+  background-color: #00D1FF;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+}
+.profesional a,
+.basico a,
+.premium a {
+  color: #ffffff;
+  font-weight: bold;
+}
 
+@media screen and (min-width: 279px) {
+  .profesional,
+  .premium {
+    width: 24rem;
+  }
+  .basico {
+    width: 25rem;
+  }
+}
 @media screen and (min-width: 450px) {
   .beneficios {
     background-size: 160%;
