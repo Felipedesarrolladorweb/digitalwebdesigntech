@@ -170,6 +170,9 @@ nav {
   color: #ffffff;
   font-weight: bold;
 }
+.main-title button a:hover {
+  text-decoration: underline;
+}
 .mainimg img {
   width: 170vw;
   margin-left: 24vmin;
@@ -458,6 +461,9 @@ nav {
   font-size: 1.7rem;
   font-weight: bold;
 }
+.email button a:hover {
+  text-decoration: underline;
+}
 .suscripcionemail img.laptopdeveloper {
   width: 39rem;
 }
@@ -564,6 +570,11 @@ nav {
   color: #ffffff;
   font-weight: bold;
 }
+.profesional button a:hover,
+.basico button a:hover,
+.premium button a:hover {
+  text-decoration: underline;
+} 
 footer {
   display: flex;
   flex-direction: column;
@@ -612,6 +623,9 @@ footer {
 .contacto1 a {
   color: #ffffff;
 }
+.contacto1 a:hover {
+  text-decoration: underline;
+}
 .footer2 {
   display: flex;
   flex-direction: column;
@@ -629,12 +643,18 @@ footer {
 .footermenu1 p {
   font-size: 1.4rem;
 }
+.footermenu1 a {
+  color: #ffffff;
+}
+.footermenu1 a:hover {
+  text-decoration: underline;
+}
 .footermenu2 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-.footermenu2 p {
+.footermenu2 a {
   font-size: 1.4rem;
 }
 footer p.correo {

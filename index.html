@@ -50,7 +50,7 @@
     </header>
 
     <main>
-      <section class="main-section">
+      <section class="main-section" id="inicio">
         <div class="main-title">
           <h1>Diseño y Desarrollo Web para Empresas y Negocios</h1>
           <p>
@@ -58,14 +58,14 @@
             diseños profesionales.
           </p>
           <button>
-            <a href="">Solicita el Tuyo!</a>
+            <a href="#contacto">Solicita el Tuyo!</a>
           </button>
         </div>
         <div class="mainimg">
           <img src="/src/mainimg.png" alt="" />
         </div>
       </section>
-      <section class="acercade-section">
+      <section class="acercade-section" id="acercade">
         <div class="acercadetitle">
           <h1><span>LO QUE</span> HAGO</h1>
           <img src="/src/desccritionimg.png" alt="" />
@@ -75,7 +75,7 @@
             código puro, esto se traduce en mayor rendimiento y calidad de tu
             sitio web lo que significa más cantidad de visitas de clientes,
             ayudando a aumentar las ganancias de tu negocio.
-            <a href="">Conoce más</a>
+            <a href="#beneficios">Conoce más</a>
           </p>
         </div>
         <div class="acercadeicons">
@@ -107,7 +107,7 @@
           </div>
         </div>
       </section>
-      <section class="beneficios">
+      <section class="beneficios" id="beneficios">
         <div class="beneficiosimg">
           <img src="/src/mainimg.png" alt="" />
         </div>
@@ -182,7 +182,7 @@
           </div>
         </div>
       </section>
-      <section class="portafolio-section">
+      <section class="portafolio-section" id="portafolio">
         <h1><span>MI</span> PORTAFOLIO</h1>
         <div class="portafolios">
           <div class="portafolio1">
@@ -190,7 +190,7 @@
             <h1>Pizzería Gourmet</h1>
             <p>Sitio web demo, que representa una pizzería.</p>
             <button>
-              <a href="">Visita Pizzería Gourmet</a>
+              <a href="https://pizza-sitioweb.netlify.app/" target="_blank">Visita Pizzería Gourmet</a>
             </button>
           </div>
           <div class="portafolio1">
@@ -200,7 +200,7 @@
               Sitio web demo, que representa un restaurante cultural de café.
             </p>
             <button>
-              <a href="">Visita café aliño</a>
+              <a href="https://cafe-landingpage.netlify.app/" target="_blank">Visita café aliño</a>
             </button>
           </div>
           <div class="portafolio1">
@@ -232,21 +232,20 @@
         <p class="acercadep1">Felipe Salazar</p>
         <p class="acercadep2">Desarrollador Web</p>
       </section>
-      <section class="suscripcionemail-section">
+      <section class="suscripcionemail-section" id="contacto">
         <div class="suscripcionemail">
           <img src="/src/windows.png" alt="" class="windows"/>
           <div class="email">
-            <h1>SUSCRIPCIÓN EMAIL</h1>
+            <h1>CONTACTO EMAIL</h1>
             <p>
-              Suscríbete a mi correo para que puedas recibir notificaciones
-              sobre proyectos, servicios e información para desarrolladores como
-              blogs
+              Envía un mensaje con tu información de contacto, para ayudarte a construir el sitio web que necesitas para impulsar tu empresa o proyectos.
             </p>
             <form name="contact" method="POST" data-netlify="true">
-                <input type="text" name="name" placeholder="Nombre" /></label>
-              <input type="email" name="text" placeholder="Dirección de Correo" />
+                <input type="text" name="name" placeholder="Nombre" />
+                <input type="email" name="email" placeholder="Dirección de Correo" />
+                <input type="tel" name="phone" placeholder="Teléfono" />
               <button>
-                <a href="" type="submit">Suscribirse</a>
+                <a href="" type="submit">Enviar</a>
               </button>
             </form>
           </div>
@@ -280,7 +279,7 @@
               <p>Modificaciones Ilimitadas</p>
             </div>
             <button>
-              <a href="">Contacto</a>
+              <a href="#contacto">Contacto</a>
             </button>
           </div>
           <div class="basico">
@@ -310,7 +309,7 @@
               <p>Modificaciones Ilimitadas</p>
             </div>
             <button>
-              <a href="">Contacto</a>
+              <a href="#contacto">Contacto</a>
             </button>
           </div>
           <div class="premium">
@@ -340,7 +339,7 @@
               <p>Modificaciones Ilimitadas</p>
             </div>
             <button>
-              <a href="">Contacto</a>
+              <a href="#contacto">Contacto</a>
             </button>
           </div>
         </div>
@@ -363,10 +362,10 @@
         </div>
         <div class="footer2">
           <div class="footermenu1">
-            <p>Inicio</p>
-            <p>Acerca de</p>
-            <p>Servicios</p>
-            <p>Portafolio</p>
+            <p><a href="#inicio">Inicio</a></p>
+            <p><a href="#acercade">Acerca de</a></p>
+            <p><a href="#beneficios">Beneficios</a></p>
+            <p><a href="#portafolio">Portafolio</a></p>
           </div>
           <div class="footermenu2">
             <p>Diseño Web</p>
