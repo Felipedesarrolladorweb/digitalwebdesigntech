@@ -17,13 +17,13 @@ html {
 a {
   list-style: none;
   text-decoration: none;
-  color: #11100d;
+  color: #1D2124;
 }
 header {
   position: fixed;
   min-width: 100vw;
   z-index: 1;
-  background-color: rgb(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 nav {
   display: flex;
