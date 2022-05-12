@@ -468,9 +468,18 @@ nav {
 .suscripcionemail img.laptopdeveloper {
   width: 39rem;
 }
+.suscripcionemail-section h1.planes-suscripcion,
+.suscripcionemail-section h1.planes-pago {
+  color: #121212;
+  font-size: 2rem;
+}
+.profesional p.precio span {
+  font-size: 3.4rem;
+  color: #00b0ff;
+}
 .planes-desarrolloweb {
   min-width: 54vw;
-  min-height: 54rem;
+  min-height: 59rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -480,7 +489,7 @@ nav {
 .profesional,
 .premium {
   width: 29rem;
-  height: 43rem;
+  height: 51rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -494,7 +503,7 @@ nav {
 }
 .basico {
   width: 31rem;
-  height: 47rem;
+  height: 54rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -523,7 +532,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 31rem;
-  height: 5.4rem;
+  height: 5.9rem;
   color: #2B3237;
   background-color: #93F790;
 } 
@@ -556,6 +565,12 @@ nav {
 .checkp img {
   width: 2rem;
 }
+.planes-desarrolloweb .profesional {
+  height: 51rem;
+}
+.planes-desarrolloweb .profesional div.checkp {
+  height: 5.9rem;
+}
 .profesional button,
 .basico button,
 .premium button {
@@ -564,6 +579,9 @@ nav {
   width: 9rem;
   height: 3rem;
   border-radius: 0.4rem;
+}
+.profesional button {
+  margin-bottom: 0.5rem;
 }
 .profesional a,
 .basico a,
