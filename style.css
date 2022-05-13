@@ -525,6 +525,10 @@ nav {
   color: #2B3237;
   transform: translate(0%, -17%);
 }
+.planpremium {
+  background-color: #49C8FF;
+  font-size: 1.2rem;
+}
 .planbasico {
   transform: translate(0%, -17%);
   display: flex;
@@ -533,6 +537,7 @@ nav {
   align-items: center;
   width: 31rem;
   height: 5.9rem;
+  padding-top: 0.7rem;
   color: #2B3237;
   background-color: #93F790;
 } 
