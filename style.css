@@ -436,16 +436,20 @@ nav {
   justify-content: space-evenly;
   width: 24rem;
   align-items: center;
-  height: 27rem;
+  height: 34rem;
 }
 .email h1 {
   font-size: 2.3rem;
   color: #121212;
   font-weight: 900;
 }
-.email p {
+.email p,
+.email a {
   font-size: 1.6rem;
   color: #7B8998;
+}
+.email a:hover {
+  text-decoration: underline;
 }
 .email input {
   background-color: transparent;
