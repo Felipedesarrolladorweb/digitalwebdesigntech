@@ -408,6 +408,10 @@ nav {
   font-size: 2rem;
   transform: translate(0%, -290%);
 }
+.acercadesection img {
+  margin-top: 4rem;
+  width: 24rem;
+}
 .suscripcionemail-section {
   min-width: 100vw;
   min-height: 100vh;
@@ -722,6 +726,10 @@ footer div.line {
   .checkp p {
     font-size: 1.4rem;
   }
+  .suscripcionemail img.laptopdeveloper {
+    width: 27rem;
+    margin-top: 4rem;
+  }
 }
 @media screen and (min-width: 450px) {
   .beneficios {
@@ -785,7 +793,7 @@ footer div.line {
     border-radius: 0.4rem;
   }
   .nav-links a {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: bold;
   }
   .nav-links a:hover {
