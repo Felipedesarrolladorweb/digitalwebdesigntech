@@ -900,7 +900,7 @@ footer div.line {
 @media screen and (min-width: 1250px) {
   .main-section {
     background-size: 90rem;
-    background-position: 40% 140%;
+    background-position: 40% 100%;
   }
   .mainimg img {
     width: 60vw;
