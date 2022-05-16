@@ -22,8 +22,13 @@ a {
 header {
   position: fixed;
   min-width: 100vw;
+  height: 10rem;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.6);
+}
+header button {
+  width: 4rem;
+  overflow: hidden;
 }
 nav {
   display: flex;
